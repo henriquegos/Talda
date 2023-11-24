@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+
+#logo{
+    width: 150px;
+}
+
+#container{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(../assets/images/cultivo_cont.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 30px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select{
+    padding: 4px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-right: 10px;
+    border: 1px solid gray;
+}
+
+#btn-enter{
+    padding: 7px 15px;
+    font-size: 14px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+#main{
+    border-radius: 5%;
+    padding: 3%;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: white;
+    margin: 10%;
+}
+
+#title-main{
+    font-size: 62px;
+}
